@@ -20,7 +20,7 @@ services:
     build:
       context: .
     ports:
-      - "8080:80"      
+      - "8090:80"      
   integration:
     depends_on:
       - accountownerapp
