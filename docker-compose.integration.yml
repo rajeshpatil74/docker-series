@@ -19,8 +19,6 @@ services:
     image: "accountownerapp:B${BUILD_NUMBER}"
     build:
       context: .
-    ports:
-      - "8090:80"      
   integration:
     depends_on:
       - accountownerapp
